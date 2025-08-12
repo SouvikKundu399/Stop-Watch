@@ -1,0 +1,69 @@
+#start{
+    background-color: green;
+    color: rgba(255, 255, 255, 0.645);
+}
+#record{
+    background-color: red;
+    color: rgba(255, 255, 255, 0.585);
+
+}
+#stop{
+    background-color: rgba(0, 213, 255, 0.8);
+    color: rgba(0, 0, 0, 0.864);
+
+}
+.outer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.inner{
+    width: 25rem;
+    border: .15rem solid black;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9e7e79e;
+}
+.show{
+    font-size: 5rem;
+    width: 25rem;
+    background-color: #fff;
+    text-align: center;
+    border: .10rem solid black;
+
+}
+.record{
+    font-size: 1.3rem;
+    height: 8rem;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+.btn{
+    font-size: 1.5rem ;
+    margin-left: .8rem;
+}
+
+@media(min-width: 340px) and (max-width: 520px){
+    .inner{
+        width: 290px
+    }
+    .show{
+        width: 20rem;
+        font-size: 2rem;
+    }
+    .btn{
+    font-size: 1rem ;
+    margin-left: .3rem;
+    }
+}
